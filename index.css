@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-image: url("Blackboard.jpg");
+    background-size: cover;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    font-family: "Montserrat", sans-serif;    
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+
+h1 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+h3 {
+    color: white;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#mark-btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 20px grey;
+}
+#mark-btn {
+    background: darkred;
+}
+
+#save-btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 20px grey;
+}
+#save-btn {
+    background: darkgreen;
+}
+
+#refresh-btn{
+    background: darkblue;
+}
+
+#refresh-btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 20px grey;
+}
+
+

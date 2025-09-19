@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Student Attendance</h1>
+
+            <p>Enter student name: </p>
+            <input type="text" id="student-name" placeholder="e.g Mary key"">
+            <button id="mark-btn" onclick= "markPresnt()">Mark Present</button>
+            <hr>
+            <p id="count-el">0 Student Present</p>
+            <ul id="present-student-list"></ul>
+            <hr>
+            <button id="save-btn" onclick="save()">Save Attendance</button>
+            <button id="refresh-btn" onclick="refresh()">Rest All</button>
+            <hr>
+            <h3>Saved Record</h3>
+            <ul id="saved-records"></ul>
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>
