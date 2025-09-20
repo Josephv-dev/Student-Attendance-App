@@ -3,6 +3,7 @@ body {
     background-image: url("Blackboard.jpg");
     background-size: cover;
     height: 100vh;
+    width: 100vw;
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
@@ -11,38 +12,45 @@ body {
     text-align: center;
     color: white;
     text-shadow: 0px 0px 10px black;
+    overflow-x: hidden;
 }
 
+@media screen {
+    h1 {
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    h2 {
+        color: white;
+        font-size: 50px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    h3 {
+        color: white;
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    
+    button {
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        font-weight: bold;
+        width: 200px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+    }
 
-h1 {
-    color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    body{
+        padding: 10px;
+    }
 }
-
-h2 {
-    color: white;
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-h3 {
-    color: white;
-    font-size: 30px;
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-button {
-    border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: bold;
-    width: 200px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-}
+    
 
 #mark-btn:hover{
     background-color: black;
