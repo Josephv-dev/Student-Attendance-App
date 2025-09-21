@@ -23,6 +23,11 @@ function markPresnt(){
         return
     }
 
+    if (/\d/.test(name)){
+        alert("Name cannot contain numbers")
+        return
+    }
+
     studentPresent.push(name)
 
     let li = document.createElement("li")
