@@ -3,7 +3,7 @@ body {
     background-image: url("Blackboard.jpg");
     background-size: cover;
     height: 200vh;
-    width: 200vw;
+    width: 100vw;
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
